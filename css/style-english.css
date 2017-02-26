@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('../fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.arrow {
+    outline: none;
+}
+
+p, a, li {
+    font-family: 'Raleway-Light';
+}
+
+
+.supporting-3 .learn-more3 {
+    font-family: 'Raleway-Bold';
+}
+
+.titre {
+    font-family: 'Raleway-Light';
+    font-weight: bold;
+}
+
+.rose {
+    color: #DA4167;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+  position: relative;
+  color: #DA4167;
+  text-decoration: none;
+
+}
+
+.a:hover, a2:hover {
+  color: #DA4167;
+    text-decoration: none;
+    outline: none;
+}
+
+.a:before {
+color: #DA4167;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #DA4167;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.a:visited {
+    color: #DA4167;
+    text-decoration: none;
+
+}
+
+.a:link, .a2:link {
+    text-decoration: none;
+    outline: none;
+}
+
+.a-bold {
+    font-weight: bold;
+}
+
+
+.supporting-1, .supporting-2, .supporting-3 {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.main {
+    background: url('../links/main.png') no-repeat center scroll;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.menu  {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-small {
+    display: none;
+}
+
+.menu li {
+    margin-top: 15px;
+    list-style-type: none;
+    margin-right:15px;
+    padding-right:15px;
+    font-weight: bold;
+}
+
+.menu-barre {
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 1px;
+}
+
+.logo {
+    margin-top: 15%;
+}
+
+.logo h1:first-child {
+   font-size: 5.5em;
+    font-family: 'Raleway-Bold';
+    margin-bottom: -2%;
+}
+
+.classes-main h1 {
+    margin-bottom: 35px;
+}
+
+.classes-main p:last-child {
+    margin-top: 35px;
+}
+
+.supporting-1bis, .supporting-2bis, .supporting-3bis {
+    display: none;
+    padding-bottom: 40px;
+    border-top-style: solid;
+    border-top-color: #b9d374;
+    border-top-width: 2px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #b9d374;
+    border-bottom-width: 2px;
+}
+
+.supporting-1bis .container, #container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.learn-more1 {
+    margin-top: 30px;
+}
+
+
+.cross {
+    margin-top: 30px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+}
+
+.cross:hover {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+
+}
+
+.about_marie {
+    height: 380px;
+    width: 350px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 25px;
+}
+
+.about_marie h3 {
+    margin-bottom: 15px;
+}
+
+.trait-vertical1 {
+    border-left-style: dashed;
+    border-left-color: #b9d374;
+    border-left-width: 1px;
+    height: 290px;
+    margin-top: 90px;
+}
+
+.french-cooking {
+    width: 400px;
+    margin-top: 0px;
+}
+
+.trait-vertical2 {
+    border-left-style: dashed;
+    border-left-color: #b9d374;
+    border-left-width: 1px;
+    height: 100px;
+    margin-top: 60px;
+}
+
+#container-prices {
+    margin-top: 25px;
+}
+
+#container-prices p:last-child {
+    margin-top: 25px;
+}
+
+.supporting-3 .arrow {
+    margin-top: 40px;
+}
+
+.trait-vertical3 {
+    border-left-style: dashed;
+    border-left-color: #b9d374;
+    border-left-width: 1px;
+    height: 130px;
+    margin-top: 60px;
+}
+
+.supporting-4 {
+    padding : 0px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.supporting-4 img {
+    margin-top: 10px;
+}
+
+form input, form textarea, form .btn {
+    margin-top: 15px;
+}
+
+.error-message {
+    color : #DA4167;
+    font-style: italic;
+}
+
+.btn {
+    background-color: #DA4167;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #b9d374;
+    color: white;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-color: #b9d374;
+    border-top-width: 2px;
+    height: 70px;
+}
+
+footer div {
+    margin-top: 10px;
+}
+
+.icon-footer {
+    margin-right:50px;
+    margin-left:10px;
+}
+
+.mentions {
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+
+
+@media all and (max-width: 800px)  {
+     nav {
+        height: 34px;
+        padding-top: 2px;
+        background-color: black;
+        opacity: 0.88;
+        margin-top: 0px;
+        position: relative;
+        display: initial;
+    }
+
+    .menu-small {
+        display: initial;
+    }
+
+    .button-menu {
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3 {
+        margin: 6px 10px 6px auto;
+        width: 24px;
+        height: 2px;
+        background-color: #DA4167;
+        transition: 0.4s;
+    }
+
+    .bar2 {
+        background-color: #b9d374;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-3px, 3px);
+        transform: rotate(-45deg) translate(-3px, 3px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -9px) ;
+        transform: rotate(45deg) translate(-8px, -9px) ;
+        background-color: #b9d374;
+    }
+
+    .list-menu {
+        display: none;
+        background-color: black;
+        height: 170px;
+        position: absolute;
+        top :32px;
+        right: 0;
+    }
+
+   .supporting-1bis .container, #container {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+    }
+
+    .supporting-1bis .container .about_marie:last-child {
+        height: 260px;
+    }
+
+    .trait-vertical1, .trait-vertical2, .trait-vertical3 {
+        display: none;
+    }
+
+    aside h1 {
+        text-align: center;
+    }
+
+    .sm-arrow {
+        margin-top: 60px;
+    }
+
+    .img-sm-device {
+        display: none;
+    }
+
+    footer div div {
+    margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 800px) and (max-device-width: 980px) {
+
+    .logo h1:first-child {
+        font-size: 3em;
+    }
+
+    .logo h1:last-child {
+        font-size: 1em;
+    }
+
+    .french-cooking, .about_marie, .about_marie_min1, .about_marie_min2 {
+    width: 290px;
+    margin-top: 0px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 25px;
+    }
+
+    .about_marie {
+        height: 350px;
+    }
+
+    .about_marie_min1 {
+        height: 430px;
+    }
+
+    .about_marie_min2 {
+        height: 460px;
+    }
+
+    .french-cooking-min-1, .french-cooking-min-2, .french-cooking-min-3, .french-cooking-min-4  {
+        padding: 10px 8px;
+    }
+}
